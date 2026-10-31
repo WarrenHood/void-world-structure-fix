@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.github.warrenhood.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MeteoriteStructureMixin",
+    "MeteoriteStructurePieceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
